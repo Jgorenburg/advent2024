@@ -52,12 +52,11 @@ def inBounds(xBound: Int, yBound: Int)(pos: (Int, Int)): Boolean = {
 val bounds = inBounds(facility(0).length, facility.length)
 
 def makesLoop(
-    blocks: Set[(Int, Int)],
-    pos: (Int, Int),
-    curDir: Direction
+    newblock: (Int, Int)
 ): Boolean = {
-  var movePos = pos
-  var moveDir = curDir
+  val blocks = obstructions union Set(newblock)
+  var movePos = startLoc
+  var moveDir = Up
   val collidedDir =
     blocks.map(_ -> Set[Direction]()).toMap
   var count = 0
@@ -81,7 +80,7 @@ while (bounds(loc)) {
   val newloc = directions(curDirection)(loc)
   if (obstructions contains newloc) curDirection = Direction.next(curDirection)
   else
-    if (makesLoop(obstructions union Set(newloc), startLoc, Up))
+    if (makesLoop(newloc))
       loops += newloc
     loc = newloc
 }
