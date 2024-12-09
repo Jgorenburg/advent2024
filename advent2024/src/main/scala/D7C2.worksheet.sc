@@ -1,12 +1,8 @@
-import scala.util.matching.Regex
-import collection.mutable.Set
 import scala.io.Source
 
 val filepath = "src/main/resources/"
 val filename = "D7.txt"
 val example = "D7example.txt"
-
-canMakeResult(123, List(1, 2, 3))
 
 def canMakeResult(result: BigInt, inputs: List[BigInt]): Boolean = {
   def canMakeResultHelper(

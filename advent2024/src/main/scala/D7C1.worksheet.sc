@@ -1,5 +1,3 @@
-import scala.util.matching.Regex
-import collection.mutable.Set
 import scala.io.Source
 
 val filepath = "src/main/resources/"
