@@ -1,3 +1,4 @@
+// https://adventofcode.com/2024/day/4
 import scala.util.matching.Regex
 import scala.io.Source
 

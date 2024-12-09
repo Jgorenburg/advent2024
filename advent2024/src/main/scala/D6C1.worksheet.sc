@@ -1,3 +1,4 @@
+// https://adventofcode.com/2024/day/6
 import scala.util.matching.Regex
 import collection.mutable.Set
 import scala.io.Source

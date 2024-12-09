@@ -1,3 +1,4 @@
+// https://adventofcode.com/2024/day/5
 import scala.io.Source
 import scala.collection.mutable.Map
 import scala.collection.mutable.Set

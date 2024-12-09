@@ -1,6 +1,6 @@
-import collection.mutable.Map
+// https://adventofcode.com/2024/day/8
+import collection.mutable.{ListBuffer, Map}
 import scala.io.Source
-import scala.collection.mutable.ListBuffer
 
 val filepath = "src/main/resources/"
 val filename = "D8.txt"
@@ -30,22 +30,17 @@ for (
   antennas(c) += ((j, i))
 }
 
-antennas
-var antinodes = Set[(Int, Int)]()
-for (key <- antennas.keys) {
-  antinodes = antinodes union
-    antennas(key).toList
-      .combinations(2)
-      //   .toList
-      .flatMap {
-        case a1 :: a2 :: _ => makeAntinodes(a1, a2)
-        case _             => None
-      }
-      .filter(antinode =>
-        antinode._1 >= 0 && antinode._1 < horiz &&
-          antinode._2 >= 0 && antinode._2 < vert
-      )
-      .toSet
+(for (key <- antennas.keys) yield {
+  antennas(key).toList
+    .combinations(2)
+    .flatMap {
+      case a1 :: a2 :: _ => makeAntinodes(a1, a2)
+      case _             => None
+    }
+    .filter(antinode =>
+      antinode._1 >= 0 && antinode._1 < horiz &&
+        antinode._2 >= 0 && antinode._2 < vert
+    )
+    .toSet
 
-}
-antinodes.size
+}).flatten.size

@@ -1,0 +1,43 @@
+I added the advent challenges in the folder problems so that you can see part 2 without logging in or completing the first part.
+
+
+Challenge 9:
+
+Part 1
+
+Thoughts: This wasn't much of a challenge. My initial guess on how to solve it worked without a hitch.
+
+Algorithm: 
+- Loop through the input string, make 2 arrays
+- - One keeps track of whether a space is filled or empty
+- - One has X instances of each file ID, where X is the size of the file
+- Use two pointers to keep track of the first and last file instances that haven't been added to the checksum
+- Iterate through the first array
+- - If the space is filled multiply the first pointer's file ID by the first array's current index and increment the first pointer
+- - Otherwise multiply the second pointer's file ID by the current index and decrement the pointer
+
+Personal ratings:
+Cleverness - 2/5
+Cleanliness - 2/5
+Efficiency - 4/5 (O(N) but still room for improvements)
+
+Part 2:
+
+Thoughts: This was definitely the most difficult yet. I went through multiple different iterations on paper before settling on my final approach. Implementing my idea proved even more challenging due to the numerous moving parts. I had one unexpected issue because I didn't account for the possibility that the next available block of free memory might be past the default location of a file, in which case we don't want to move it. Luckily, this could be fixed with a simple if statement.
+
+Algorithm: 
+- Loop through the input string, make 2 maps and an array
+- - Map 1 maps from file ID to default location and size
+- - Map 2 maps from 0-9 to the first location a file of that size can be places
+- - The array keeps track of the largest file that can be stored at any location (0 if a file is already stored there)
+- For each file ID in reverse order:
+- - Get the location to store it from map 2
+- - Confirm that location is actually large enough to store it
+- - - If not, update Map 2 with the correct location
+- - If the first location to move the file to is past its current location, do not move it
+- - Add the file to the checksum and update the array
+
+Personal ratings:
+Cleverness - 3/5
+Cleanliness - 2/5
+Efficiency - 3/5 (O(N) but still room for improvements. Specifically, updating Map 2 when moving files)
