@@ -1,0 +1,20 @@
+Challenge 10:
+
+Part 1
+
+Thoughts: Fairly standard dynamic problem. Not much to talk about (except the cute arts & crafts reindeer)
+
+Personal Ratings:
+Cleverness - 1/5
+Cleanliness - 4/5
+Efficiency - 5/5
+
+
+Part 2
+
+Thoughts: Amusingly, I originally believed this was how part 1 worked, so I'd already solved this before the challenge was revealed
+
+Personal Ratings:
+Cleverness - 1/5
+Cleanliness - 4/5
+Efficiency - 5/5
