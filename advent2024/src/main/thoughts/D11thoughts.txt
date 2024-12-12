@@ -1,0 +1,20 @@
+Challenge 11:
+
+Part 1
+
+Thoughts: Fairly simple problem because of the low depth. I wrote a brute-force solution in a short amount of time
+
+Personal Ratings:
+Cleverness - 1/5
+Cleanliness - 4/5
+Efficiency - 1/5
+
+
+Part 2
+
+Thoughts: First puzzle where efficiency mattered. I went through a couple ideas before I found one I liked. Had some trouble coding my first few ideas before I threw them out, but my final plan wasn't difficult to implement
+
+Personal Ratings:
+Cleverness - 3/5
+Cleanliness - 4/5
+Efficiency - 4/5  I'd have loved to be able to skip transform levels for values we'd previously encountered, but it proved unecessary for a depth of 75 
