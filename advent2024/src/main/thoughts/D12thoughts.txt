@@ -1,0 +1,20 @@
+Challenge 12:
+
+Part 1
+
+Thoughts: First time I used a class to hold data for one of these challenges. I probably should've been doing this earlier
+
+Personal Ratings:
+Cleverness - 2/5
+Cleanliness - 3/5
+Efficiency - 3/5
+
+
+Part 2
+
+Thoughts: Had some trouble with this one. Both with coming up with an efficient solution and with implementing it. Originally had a series of ideas that involved mapping out regions before determining their perimeter, but I was confident I could find a way to get the perimeter while mapping a region (like in part 1). This is the first challenge that was more difficult because I was using a worksheet since I can't use the debugger, which made figuring out which step was causing issues difficult. Biggest issue was that a new plot could link up two sides into one, which I hadn't originally considered and a disadvantage of trying to get the perimeter without first fully mapping a region. Luckily, once I realized that's why my answer was too high it was a quick solve
+
+Personal Ratings:
+Cleverness - 5/5
+Cleanliness - 3/5
+Efficiency -3/5
