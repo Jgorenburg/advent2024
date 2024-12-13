@@ -1,0 +1,20 @@
+Challenge 13:
+
+Part 1
+
+Thoughts: Could've solved this using linear equations, but since the problem had a 100 presses limit I decided to brute force it
+
+Personal Ratings:
+Cleverness - 2/5
+Cleanliness - 2/5
+Efficiency - 1/5
+
+
+Part 2
+
+Thoughts: As expected, part two requires more math knowledge. I'm not a fan of this since it requires background outside coding, which doesn't feel right. Anyone with a decent math background can solve this easily and those without are going to struggle
+
+Personal Ratings:
+Cleverness - 1/5
+Cleanliness - 4/5
+Efficiency - 5/5
