@@ -1,0 +1,20 @@
+Challenge 14:
+
+Part 1
+
+Thoughts: An interesting but ultimately simple puzzle. I'm sure there's a simpler way to deal with the teleporting, but I like my solution too much to search for it
+
+Personal Ratings:
+Cleverness - 4/5
+Cleanliness - 4/5
+Efficiency - 5/5
+
+
+Part 2
+
+Thoughts: God that was frustrating. Why would the christmas tree only take a small portion of the screen? Why not show what it's supposed to look like? Without the reddit I never would've known what to look for since I assumed every robot would be used in the tree. I know I was harsh on yesterday's challenge, but that was excusable, this isn't
+
+Personal Ratings:
+Cleverness - 1/5
+Cleanliness - 1/5
+Efficiency - 2/5
