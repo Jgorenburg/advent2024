@@ -1,0 +1,20 @@
+Challenge 15:
+
+Part 1
+
+Thoughts: Fun and fairly simple. I'm happy that my plan for moving boxes worked the first time!
+
+Personal Ratings:
+Cleverness - 3/5
+Cleanliness - 3/5
+Efficiency - 3/5 
+
+
+Part 2
+
+Thoughts: Well that was brutal. This sort of state-change puzzle is definitely not my strength. Have a ton of fun with it though!
+
+Personal Ratings:
+Cleverness - 2/5
+Cleanliness - 4/5
+Efficiency - 3/5
