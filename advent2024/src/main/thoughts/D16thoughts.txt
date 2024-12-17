@@ -1,0 +1,20 @@
+Challenge 16:
+
+Part 1
+
+Thoughts: Interesting sort of pathfinding problem. I ended up using a modified version of my A* algorithm from a different project (The Village)
+
+Personal Ratings:
+Cleverness - 2/5
+Cleanliness - 2/5
+Efficiency - 4/5 
+
+
+Part 2
+
+Thoughts: Not much to say. Was challenging and enjoyable
+
+Personal Ratings:
+Cleverness - 3/5
+Cleanliness - 1/5
+Efficiency - 3/5
