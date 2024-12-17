@@ -1,0 +1,20 @@
+Challenge 17:
+
+Part 1
+
+Thoughts: I've never really loved these sorts of problems, but it wasn't particularly annoying. 
+
+Personal Ratings:
+Cleverness - 2/5
+Cleanliness - 4/5
+Efficiency - 4/5 
+
+
+Part 2
+
+Thoughts: Now that was a challenge! I initially tried to brute force it, but that's really difficult to do using worksheets. Eventually I reverse engineered the operations for each step and wrote a program to figure out what values of A could give the next value of A and the correct output. This sort of backsolving only worked because B and C were overwritten by A between each output
+
+Personal Ratings:
+Cleverness - 4/5
+Cleanliness - 3/5
+Efficiency - 5/5
