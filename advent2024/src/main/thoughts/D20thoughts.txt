@@ -1,0 +1,20 @@
+Challenge 20:
+
+Part 1
+
+Thoughts: Really enjoyable. I like my solution but I think there were a bunch of other ways I could've solved it, which is great
+
+Personal Ratings:
+Cleverness - 3/5
+Cleanliness - 3/5
+Efficiency - 3/5
+
+
+Part 2
+
+Thoughts: Also enjoyable. I'm not as satisfied with my answer but it's more than efficient enough for the input
+
+Personal Ratings:
+Cleverness - 4/5
+Cleanliness - 3/5
+Efficiency - 2/5
