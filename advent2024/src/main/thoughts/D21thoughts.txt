@@ -1,0 +1,20 @@
+Challenge 21:
+
+Part 1
+
+Thoughts: By far the best puzzle so far. I was stumped forever. Tried multiple brute-force approaches until I realized that recording paths doesn't matter since every robot will always end at A. This led to me creating a simple dynamic solution
+
+Personal Ratings:
+Cleverness - 5/5
+Cleanliness - 2/5
+Efficiency - 4/5
+
+
+Part 2
+
+Thoughts: I'm unreasonably smug about how easy this was. My approach to step 1 was easily expandable, so this was probably my quickest solve of any part in the advent
+
+Personal Ratings:
+Cleverness - 5/5
+Cleanliness - 4/5
+Efficiency - 4/5
