@@ -1,0 +1,20 @@
+Challenge 23:
+
+Part 1
+
+Thoughts: A fine problem
+
+Personal Ratings:
+Cleverness - 2/5
+Cleanliness - 2/5
+Efficiency - 3/5 
+
+
+Part 2
+
+Thoughts: I ended up brute-forcing this. For a larger input I'd be in trouble but it ran just fine for the given list of connections
+
+Personal Ratings:
+Cleverness - 2/5
+Cleanliness - 4/5
+Efficiency - 1/5
