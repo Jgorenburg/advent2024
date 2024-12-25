@@ -1,0 +1,20 @@
+Challenge 24:
+
+Part 1
+
+Thoughts: Very different from the previous problems. Like the diversity
+
+Personal Ratings:
+Cleverness - 3/5
+Cleanliness - 3/5
+Efficiency - 1/5 
+
+
+Part 2
+
+Thoughts: I did a good bit of this problem by hand, a first for this advent. I used a comparison between real adds and the system's adds to guess which output bit problems were associated with and then printed out the structure of path to that output and found incorrect portion
+
+Personal Ratings:
+Cleverness - 2/5
+Cleanliness - 1/5
+Efficiency - 1/5
