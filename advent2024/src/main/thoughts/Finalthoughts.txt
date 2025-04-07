@@ -1,0 +1,2 @@
+I had a ton of fun doing the advent of code! I feel like a learned a lot about scala and improved my coding to a noticeable degree during this month. I'll try to do this again next year, but I may not have the time it requires to get 50 stars.
+
