@@ -3,7 +3,7 @@ import scala.util.matching.Regex
 import scala.io.Source
 import collection.mutable.Map
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D21.txt"
 val example = "D21example.txt"
 val input = Source.fromFile(filepath + filename).getLines()

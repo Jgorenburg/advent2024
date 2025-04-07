@@ -2,7 +2,7 @@
 import scala.io.Source
 import scala.collection.mutable.PriorityQueue
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D16.txt"
 val example1 = "D16example.txt"
 val example2 = "D16example2.txt"

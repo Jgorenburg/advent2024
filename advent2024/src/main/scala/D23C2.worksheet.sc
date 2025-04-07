@@ -2,7 +2,7 @@
 import scala.io.Source
 import collection.mutable.{Map, Set}
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D23.txt"
 val example = "D23example.txt"
 val input = Source.fromFile(filepath + filename).getLines()

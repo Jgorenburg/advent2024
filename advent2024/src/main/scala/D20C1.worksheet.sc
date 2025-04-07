@@ -3,7 +3,7 @@ import scala.io.Source
 import scala.util.control.Breaks._
 import scala.collection.mutable.ListBuffer
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D20.txt"
 val example = "D20example.txt"
 

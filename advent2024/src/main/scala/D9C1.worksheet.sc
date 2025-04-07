@@ -2,7 +2,7 @@
 import scala.io.Source
 import scala.collection.mutable.ArrayBuffer
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D9.txt"
 val example = "D9example.txt"
 

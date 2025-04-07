@@ -1,7 +1,7 @@
 // https://adventofcode.com/2024/day/22
 import scala.io.Source
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D22.txt"
 val example = "D22example.txt"
 val input = Source.fromFile(filepath + filename).getLines()

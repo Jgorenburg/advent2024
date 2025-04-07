@@ -4,7 +4,7 @@ import scala.collection.mutable.{ArrayBuffer, Map, Queue}
 import scala.util.matching.Regex
 import scala.util.Random
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D24.txt"
 val example3 = "D24example3.txt"
 val input = Source.fromFile(filepath + filename).getLines()

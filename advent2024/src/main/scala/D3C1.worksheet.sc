@@ -2,7 +2,7 @@
 import scala.util.matching.Regex
 import scala.io.Source
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D3.txt"
 val input = Source.fromFile(filepath + filename).mkString
 val mulRegex: Regex = """mul\(([0-9]+),([0-9]+)\)""".r

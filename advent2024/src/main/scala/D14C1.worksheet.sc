@@ -2,7 +2,7 @@
 import scala.io.Source
 import scala.util.matching.Regex
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D14.txt"
 val example = "D14example.txt"
 val exampleDimensions = (11, 7)

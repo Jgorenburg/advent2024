@@ -2,7 +2,7 @@
 import collection.mutable.{ListBuffer, Map}
 import scala.io.Source
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D8.txt"
 val example = "D8example.txt"
 

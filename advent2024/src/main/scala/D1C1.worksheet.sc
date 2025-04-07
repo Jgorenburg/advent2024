@@ -2,7 +2,7 @@
 import scala.io.Source
 import scala.collection.mutable.PriorityQueue
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D1.txt"
 var firstL: PriorityQueue[Int] = PriorityQueue()
 var secondL: PriorityQueue[Int] = PriorityQueue()

@@ -2,7 +2,7 @@
 import scala.io.Source
 import scala.collection.mutable.{Map, Queue}
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val myBand = "D12.txt"
 val example = "D12example.txt"
 

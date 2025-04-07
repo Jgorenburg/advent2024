@@ -3,7 +3,7 @@ import scala.io.Source
 import scala.collection.mutable.Queue
 import scala.collection.mutable.Map
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D1.txt"
 var firstL: Queue[Int] = Queue()
 var secondL: Map[Int, Int] = Map()

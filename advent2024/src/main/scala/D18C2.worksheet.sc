@@ -1,7 +1,7 @@
 // https://adventofcode.com/2024/day/18
 import scala.io.Source
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D18.txt"
 val example1 = "D18example.txt"
 

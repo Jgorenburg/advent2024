@@ -3,7 +3,7 @@ import scala.io.Source
 import scala.collection.mutable.Map
 import scala.collection.mutable.Set
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D5.txt"
 
 val rule = raw"([0-9]+)\|([0-9]+)".r

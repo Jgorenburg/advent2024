@@ -1,7 +1,7 @@
 // https://adventofcode.com/2024/day/2
 import scala.io.Source
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D2.txt"
 var safe = 0
 for (line <- Source.fromFile(filepath + filename).getLines.toList) {

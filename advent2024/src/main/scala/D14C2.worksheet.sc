@@ -6,7 +6,7 @@ import java.io.BufferedWriter
 import java.io.FileWriter
 import java.io.File
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D14.txt"
 val example = "D14example.txt"
 val exampleDimensions = (11, 7)

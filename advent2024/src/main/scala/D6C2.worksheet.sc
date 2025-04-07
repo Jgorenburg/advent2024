@@ -3,7 +3,7 @@ import scala.util.matching.Regex
 import collection.mutable.{Map, Set}
 import scala.io.Source
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D6.txt"
 val example = "D6example.txt"
 

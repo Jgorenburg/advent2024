@@ -4,7 +4,7 @@ import scala.util.matching.Regex
 import scala.collection.mutable.ListBuffer
 import scala.collection.mutable.Queue
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D17.txt"
 
 val computer = Source.fromFile(filepath + filename).getLines()

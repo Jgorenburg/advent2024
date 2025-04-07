@@ -2,7 +2,7 @@
 import scala.util.matching.Regex
 import scala.io.Source
 
-val filepath = "src/main/resources/"
+val filepath = "advent2024/src/main/resources/"
 val filename = "D4.txt"
 var wordSearch: Array[String] = Array()
 for (line <- Source.fromFile(filepath + filename).getLines) {
